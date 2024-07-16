@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Space Station | Resort </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!---NAV-->
+    <div>
+        <div>
+            <ul>
+                <a href="#home"><li>HOME</li></a>
+                <a href="gallery"><li>GALLERY</li></a>
+                <a href="contact"><li>RESERVATIONS</li></a>
+            </ul>
+        </div>
+    </div>
+    <!---END NAV-->
+    <!---HOME-->
+    <div id="home">
+        <div>
+            <div>
+                <span>The Space Station</span>
+            </div>
+        </div>
+    </div>
+    <!---END HOME-->
+    <!---GALLERY-->
+    <section>
+        <div id="gallery">
+            <h1>Gallery</h1>
+            <div>
+                <!---PHOTO CONTAINER 1-->
+                <div>
+                    <div>
+                        <img src="./Thumb/thumbnail_1 (2).jpg" alt="Image of the solar system" onclick="openModal();currentSlide(1)">
+                        <div>
+                            <h3>Click to Enlarge</h3>
+                            <p>We have several space launches departing daily, book your flight today!</p>
+                        </div>
+                    </div>
+                </div>
+                <!---END PHOTO CONTAINER 1-->
+                <!---PHOTO CONTAINER 2-->
+                <div>
+                    <div>
+                        <img src="./Thumb/thumbnail_2 (2).jpg" alt="Image of the solar system" onclick="openModal();currentSlide(2)">
+                        <div>
+                            <h3>Click to Enlarge</h3>
+                            <p>We have several space launches departing daily, book your flight today!</p>
+                        </div>
+                    </div>
+                </div>
+                <!--- END PHOTO CONTAINER 2-->
+                <!---PHOTO CONTAINER 3-->
+                <div>
+                    <div>
+                        <img src="./Thumb/thumbnail_3 (2).jpg" alt="Image of the solar system" onclick="openModal();currentSlide(3)">
+                        <div>
+                            <h3>Click to Enlarge</h3>
+                            <p>We have several space launches departing daily, book your flight today!</p>
+                        </div>
+                    </div>
+                </div>
+                <!--- END PHOTO CONTAINER 3-->
+                <!--- PHOTO CONTAINER 4-->
+                <div>
+                    <div>
+                        <img src="./Thumb/thumbnail_4 (2).jpg" alt="Image of the solar system" onclick="openModal();currentSlide(4)">
+                        <div>
+                            <h3>Click to Enlarge</h3>
+                            <p>We have several space launches departing daily, book your flight today!</p>
+                        </div>
+                    </div>
+                </div>
+                <!--- END PHOTO CONTAINER 4-->
+                <!---PHOTO CONTAINER 5-->
+                <div>
+                    <div>
+                        <img src="./Thumb/thumbnail_5 (2).jpg" alt="Image of the solar system" onclick="openModal();currentSlide(5)">
+                        <div>
+                            <h3>Click to Enlarge</h3>
+                            <p>We have several space launches departing daily, book your flight today!</p>
+                        </div>
+                    </div>
+                </div>
+                <!--- END PHOTO CONTAINER 5-->
+                <!---PHOTO CONTAINER 6-->
+                <div>
+                    <div>
+                        <img src="./Thumb/thumbnail_6 (2).jpg" alt="Image of the solar system" onclick="openModal();currentSlide(6)">
+                        <div>
+                            <h3>Click to Enlarge</h3>
+                            <p>We have several space launches departing daily, book your flight today!</p>
+                        </div>
+                    </div>
+                </div>
+                <!--- END PHOTO CONTAINER 6-->
+                <!---PHOTO CONTAINER 7-->
+                <div>
+                    <div>
+                        <img src="./Thumb/thumbnail_7 (2).jpg" alt="Image of the solar system" onclick="openModal();currentSlide(7)">
+                        <div>
+                            <h3>Click to Enlarge</h3>
+                            <p>We have several space launches departing daily, book your flight today!</p>
+                        </div>
+                    </div>
+                </div>
+                <!--- END PHOTO CONTAINER 7-->
+                <!---PHOTO CONTAINER 8-->
+                <div>
+                    <div>
+                        <img src="./Thumb/thumbnail_8 (3).jpg" alt="Image of the solar system" onclick="openModal();currentSlide(8)">
+                        <div>
+                            <h3>Click to Enlarge</h3>
+                            <p>We have several space launches departing daily, book your flight today!</p>
+                        </div>
+                    </div>
+                </div>
+                <!--- END PHOTO CONTAINER 8-->
+                <!---PHOTO CONTAINER 9-->
+                <div>
+                    <div>
+                        <img src="./Thumb/thumbnail_9 (2).jpg" alt="Image of the solar system" onclick="openModal();currentSlide(9)">
+                        <div>
+                            <h3>Click to Enlarge</h3>
+                            <p>We have several space launches departing daily, book your flight today!</p>
+                        </div>
+                    </div>
+                </div>
+                <!--- END PHOTO CONTAINER 9-->
+            </div>
+        </div>
+    </section>
+    <!--- END GALLERY-->
+    <!--- RSVP -->
+    <section>
+        <div id="contact">
+            <div>
+                <h1>Reservations</h1>
+                <div>
+                    <h2><span>Your adventure is just around the moon.</span>
+                        <br/>Reserve your flight today!
+                    </h2>
+                    <p>Please provide us with your basic contact information.</p>
+                    <div>
+                        <form action="" method="post">
+                            <input class="rsvp" type="text" value="">
+                            <input class="rsvp" type="text" value="">
+                            <input class="rsvp" type="text" value="">
+                            <input class="rsvp" type="text" value="">
+                            <div class="form-spacer">
+                                <label class="terms">Terms and Conditions</label>
+                            </div>
+                            <div>
+                                <input type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--- RSVP -->
+    <!--- FOOTER -->
+    <div id="foooter">
+        <p>www.thespacestation.space | &copy; 2024 </p>
+    </div>
+    <!--- END FOOTER -->
+
+    <!-- Modal for Lightbox -->
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <div class="mySlides">
+                <div class="numbertext">1 / 9</div>
+                <img src="./Thumb/thumbnail_1 (2).jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">2 / 9</div>
+                <img src="./Thumb/thumbnail_2 (2).jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">3 / 9</div>
+                <img src="./Thumb/thumbnail_3 (2).jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">4 / 9</div>
+                <img src="./Thumb/thumbnail_4 (2).jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">5 / 9</div>
+                <img src="./Thumb/thumbnail_5 (2).jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">6 / 9</div>
+                <img src="./Thumb/thumbnail_6 (2).jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">7 / 9</div>
+                <img src="./Thumb/thumbnail_7 (2).jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">8 / 9</div>
+                <img src="./Thumb/thumbnail_8 (3).jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">9 / 9</div>
+                <img src="./Thumb/thumbnail_9 (2).jpg" style="width:100%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="./Thumb/thumbnail_1 (2).jpg" style="width:100%" onclick="currentSlide(1)" alt="Image 1">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="./Thumb/thumbnail_2 (2).jpg" style="width:100%" onclick="currentSlide(2)" alt="Image 2">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="./Thumb/thumbnail_3 (2).jpg" style="width:100%" onclick="currentSlide(3)" alt="Image 3">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="./Thumb/thumbnail_4 (2).jpg" style="width:100%" onclick="currentSlide(4)" alt="Image 4">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="./Thumb/thumbnail_5 (2).jpg" style="width:100%" onclick="currentSlide(5)" alt="Image 5">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="./Thumb/thumbnail_6 (2).jpg" style="width:100%" onclick="currentSlide(6)" alt="Image 6">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="./Thumb/thumbnail_7 (2).jpg" style="width:100%" onclick="currentSlide(7)" alt="Image 7">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="./Thumb/thumbnail_8 (3).jpg" style="width:100%" onclick="currentSlide(8)" alt="Image 8">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="./Thumb/thumbnail_9 (2).jpg" style="width:100%" onclick="currentSlide(9)" alt="Image 9">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
